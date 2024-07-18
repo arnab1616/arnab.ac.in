@@ -1,0 +1,95 @@
+ 
+ .content{
+    background-color: #111;
+    padding-bottom: 80px;
+ }
+ 
+ .custom-span-contact {
+    font-weight: 600;
+    padding-left: 50px;
+    line-height: 25px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.custom-span-contact span {
+    text-transform: uppercase;
+    opacity: .8;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+form {
+    padding-left: 30px;
+}
+form .form-group {
+    margin-bottom: 30px;
+}
+form input[type=email], form input[type=text] {
+    border: 1px solid #111;
+    width: 100%;
+    background: #252525;
+    color: #fff;
+    padding: 11px 26px;
+    border-radius: 30px;
+    outline: none ;
+    transition: .3s;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+form textarea {
+    border: 1px solid #111;
+    background: #252525;
+    color: #fff;
+    width: 100%;
+    padding: 12px 26px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 30px;
+    outline: none;
+    transition: .3s;
+}
+.blog .page-item.active .page-link, .blog .page-link:hover, .button,  form input[type=email]:focus,  form input[type=text]:focus,  form textarea:focus, body.light.blog .page-item.active .page-link, body.light.blog .page-link:hover, body.light form input[type=email]:focus, body.light form input[type=text]:focus, body.light form textarea:focus {
+    border: 1px solid #ffb400;
+}
+.custom-span-contact i {
+    left: 0;
+    top: 10px;
+    font-size: 33px;
+    color: #ffb400;
+}
+.custom-span-contact a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer ;
+}
+ul.social {
+    margin-left: -5px;
+    padding-top: 15px !important;
+}
+ul.social li {
+    display: inline-block;
+}
+ul.social li a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 6px;
+    background: #2b2a2a;
+    border-radius: 50%;
+}
+ul.social li a:hover{
+    background-color: #ffb400;
+}
+@media (max-width:991px){
+    form{
+        padding: 0;
+    }
+}
