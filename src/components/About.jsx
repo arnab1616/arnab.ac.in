@@ -38,26 +38,26 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-6 col-lg-7 col-12 mt-5 mt-lg-0">
-                <div class="row">
-                  <div class="col-6">
-                    <div class="box-stats with-margin">
-                      <h3 class="poppins-font position-relative">2</h3><p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience</span></p>
+              <div className="col-xl-6 col-lg-7 col-12 mt-5 mt-lg-0">
+                <div className="row">
+                  <div className="col-6">
+                    <div className="box-stats with-margin">
+                      <h3 className="poppins-font position-relative">2</h3><p className="open-sans-font m-0 position-relative text-uppercase">years of <span className="d-block">experience</span></p>
                     </div>
                   </div>
-                  <div class="col-6">
-                    <div class="box-stats with-margin">
-                      <h3 class="poppins-font position-relative">10</h3><p class="open-sans-font m-0 position-relative text-uppercase">completed <span class="d-block">projects</span></p>
+                  <div className="col-6">
+                    <div className="box-stats with-margin">
+                      <h3 className="poppins-font position-relative">10</h3><p className="open-sans-font m-0 position-relative text-uppercase">completed <span className="d-block">projects</span></p>
                     </div>
                   </div>
-                  <div class="col-6">
-                    <div class="box-stats with-margin">
-                      <h3 class="poppins-font position-relative">3</h3><p class="open-sans-font m-0 position-relative text-uppercase">Happy <span class="d-block">customers</span></p>
+                  <div className="col-6">
+                    <div className="box-stats with-margin">
+                      <h3 className="poppins-font position-relative">3</h3><p className="open-sans-font m-0 position-relative text-uppercase">Happy <span className="d-block">customers</span></p>
                     </div>
                   </div>
-                  <div class="col-6">
-                    <div class="box-stats with-margin">
-                      <h3 class="poppins-font position-relative">1</h3><p class="open-sans-font m-0 position-relative text-uppercase">awards <span class="d-block">won</span></p>
+                  <div className="col-6">
+                    <div className="box-stats with-margin">
+                      <h3 className="poppins-font position-relative">1</h3><p className="open-sans-font m-0 position-relative text-uppercase">awards <span className="d-block">won</span></p>
                     </div>
                   </div>
                 </div>
@@ -66,22 +66,48 @@ export default function About() {
           </div>
           <hr className='separator' />
           <div className='container-fluid'>
-            <div class="row">
-              <div class="col-12">
-                <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-start text-sm-center custom-title ft-wt-600">My Skills</h3>
+            <div className="row">
+              <div className="col-12">
+                <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-start text-sm-center custom-title ft-wt-600">My Skills</h3>
               </div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p80"><span>80%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">HTML</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p75"><span>75%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">JAVASCRIPT</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p70"><span>70%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">CSS</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p25"><span>25%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">PHP</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p15"><span>15%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">WORDPRESS</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p95"><span>95%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">BOOTSTRAP</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p90"><span>90%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">NODE</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p65"><span>65%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">REACT</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p80"><span>80%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">MYSQL</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p80"><span>80%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">POSTGRESQL</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p75"><span>75%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">FIREBASE</h6></div>
-              <div class="col-6 col-md-3 mb-3 mb-sm-5"><div class="c100 p65"><span>65%</span><div class="slice"><div class="bar"></div><div class="fill"></div></div></div><h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">GIT / GITHUB</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p80"><span>80%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">HTML</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p75"><span>75%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">JAVASCRIPT</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p70"><span>70%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">CSS</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p25"><span>25%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">PHP</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p15"><span>15%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">WORDPRESS</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p95"><span>95%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">BOOTSTRAP</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p90"><span>90%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">NODE</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p65"><span>65%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">REACT</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p80"><span>80%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">MYSQL</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p80"><span>80%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">POSTGRESQL</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p75"><span>75%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">FIREBASE</h6></div>
+              <div className="col-6 col-md-3 mb-3 mb-sm-5"><div className="c100 p65"><span>65%</span><div className="slice"><div className="bar"></div><div className="fill"></div></div></div><h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">GIT / GITHUB</h6></div>
+            </div>
+          </div>
+          <hr className='separator' />
+          <div className='container-fluid'>
+            <div className="row">
+              <div className="col-12">
+                <h3 className="text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600">Experience <span>&amp;</span> Education</h3>
+              </div>
+              <div className="col-lg-6 m-15px-tb">
+                <div className="resume-box">
+                  <ul>
+                    <li><div className="icon"><i className="bi bi-suitcase-lg-fill"></i></div><span className="time open-sans-font text-uppercase">   2022 - 2023</span><h5 className="poppins-font text-uppercase">full-stack Web Developer<span className="place open-sans-font">udemy</span></h5><p className="open-sans-font"> From UDEMY I have completed my full-stack web development coures. After that I have made 3 MERN-STACK projects</p></li>
+                    <li><div className="icon"><i className="bi bi-suitcase-lg-fill"></i></div><span className="time open-sans-font text-uppercase">2022 - 2023</span><h5 className="poppins-font text-uppercase"> UI/UX Designer<span className="place open-sans-font">figma</span></h5><p className="open-sans-font">I have done many UI/UX Design from figma. It helps to create a complex project with less consuming of time</p></li>
+                    <li><div className="icon"><i className="bi bi-suitcase-lg-fill"></i></div><span className="time open-sans-font text-uppercase">2024 - present</span><h5 className="poppins-font text-uppercase">web developer intern<span className="place open-sans-font">i grow++</span></h5><p className="open-sans-font">I am working with I Grow++ as a Web Developer Intern. Using tecnology - HTML, CSS, JavaScript, PHP, Node Js, MySql.</p></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6 m-15px-tb">
+                <div className="resume-box">
+                  <ul>
+                    <li><div className="icon"><i className="bi bi-suitcase-lg-fill"></i></div><span className="time open-sans-font text-uppercase">2021 - present</span><h5 className="poppins-font text-uppercase">BACHELOR DEGREE<span className="place open-sans-font">netaji subhash engineering college</span></h5><p className="open-sans-font">  I am cuurently pursuing my B.Tech from NSEC in Information Technology (final year). Overall CGPA - 8.13.</p></li>
+                    <li><div className="icon"><i className="bi bi-suitcase-lg-fill"></i></div><span className="time open-sans-font text-uppercase">2020</span><h5 className="poppins-font text-uppercase">higher secondary<span className="place open-sans-font">deulia hiraram high school</span></h5><p className="open-sans-font">I have completed my Higher Secondary exam from Deulia Hiraram High School With 86% grade.</p></li>
+                    <li><div className="icon"><i className="bi bi-suitcase-lg-fill"></i></div><span className="time open-sans-font text-uppercase">2018</span><h5 className="poppins-font text-uppercase">matrices <span className="place open-sans-font">dhuliara mahendra institution</span></h5><p className="open-sans-font">I have completed my Matrices exam from Dhuliara Mahendra Institution with 73% grade.</p></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </section>
