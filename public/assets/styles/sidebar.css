@@ -40,6 +40,9 @@
     background: #2b2a2a;
     cursor: pointer;
 }
+/* .head ul.icon-menu li.icon-box.active{
+    background: #ffb400;
+} */
 .head ul.icon-menu li.icon-box:hover{
     background: #ffb400;
 }

@@ -1,0 +1,153 @@
+
+.portfolio-tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    transition-duration: 1.2s;
+    transition-property: opacity, transform;
+    /* transform: translate3d(0, 100px, 0); */
+}
+@media (max-width: 767px) {
+    .portfolio-tab-list {
+        justify-content: flex-start;
+        padding-left: 0;
+    }
+}
+.portfolio-tab-list li.react-tabs__tab--selected, .portfolio-tab-list li:hover {
+    color: #ffc107;
+    border-bottom: 2px solid #ffc107 ;
+    border-bottom-right-radius: 5px;
+    transition: ease-in-out 200ms;
+}
+.portfolio-main .react-tabs__tab--selected {
+    color: #ffc107;
+    background-color: transparent;
+    border: none;
+    background: transparent;
+}
+.portfolio-main .react-tabs__tab {
+    color: #eee;
+    transition: all .4s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+.portfolio-main .react-tabs__tab {
+    position: static;
+}
+
+.portfolio-tab-list li {
+    margin: 0 15px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+.portfolio-main .tab-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+.portfolio-main div {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+@media only screen and (max-width: 62em) {
+    .portfolio-main .tab-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 35.9375em) {
+    .portfolio-main .tab-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.portfolio-main .react-tabs .tab-content {
+    width: 100%;
+    height: 229px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+}
+.portfolio-main .react-tabs .tab-content img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: .5rem;
+}
+.portfolio-main .react-tabs .tab-content h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    background-color: #ffc107;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: .5rem;
+}
+.portfolio-main .react-tabs .tab-content:hover h3 .conent-title {
+    transform: translateY(0);
+}
+.portfolio-main .react-tabs .tab-content h3 .conent-title {
+    position: relative;
+    transform: translateY(-20px);
+    transition: .5s;
+}
+.portfolio-main .react-tabs .tab-content:hover h3 {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-content .modal_title h2{
+    color: #ffc107;
+    text-transform: uppercase;
+    padding: 10px 0 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 33px;
+    margin: 0;
+}
+.modal__details{
+    margin-bottom: 25px;
+}
+.modal__details .preview-link {
+    color: #ffc107;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 600;
+}
+.modal__img {
+    width: 100%;
+    max-height: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #252525;
+    margin: 0;
+}
+.modal__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
