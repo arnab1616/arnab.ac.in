@@ -6,6 +6,9 @@ export default function Hero() {
   return (
   <>
     <section className='home'>
+    <div className='p-2' style={{background:'#ffb400', position:'absolute', right:'0',borderBottomLeftRadius:'25px',top:'0'}}>
+      <p className='m-0 px-1' style={{color:'black', textTransform:'capitalize', fontWeight:'bold'}}>Welcome to my website!</p>
+    </div>
     <div className='cover-block'></div>
       <div style={{height:'100%'}}>
         <div className='container-fluid'>

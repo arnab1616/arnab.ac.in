@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='' style={{background:'#111' , overflow:'hidden',height:'100%'}}>
+    <div className='content' style={{background:'#111' , overflow:'hidden',height:'100%'}}>
       <div className='cover-block'></div>
       <div className='container about-container' >
         <div className="title-section text-start text-sm-center">
