@@ -15,14 +15,14 @@
         padding-left: 0;
     }
 }
-.portfolio-tab-list li.react-tabs__tab--selected, .portfolio-tab-list li:hover {
+.portfolio-tab-list li:hover {
     color: #ffc107;
-    border-bottom: 2px solid #ffc107 ;
-    border-bottom-right-radius: 5px;
+/*     border-bottom: 2px solid #ffc107 ;
+    border-bottom-right-radius: 5px; */
     transition: ease-in-out 200ms;
 }
 .portfolio-main .react-tabs__tab--selected {
-    color: #ffc107;
+/*     color: #ffc107; */
     background-color: transparent;
     border: none;
     background: transparent;
