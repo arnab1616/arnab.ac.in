@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ScrollAnimation from 'react-animate-on-scroll';
 import Modals from './Modals'
 import { Outlet, useNavigate } from 'react-router-dom';
 
