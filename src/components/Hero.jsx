@@ -17,13 +17,11 @@ export default function Hero() {
           const geoData = geoResponse.data;
 
           console.log('Geolocation Data:', geoData);
-
-          const input = {
-            name:'Purbasha Bera',
-            gender: 'Female'
-          };
-          const test = await axios.post('https://arnab-ac-in-backend.onrender.com/test',input);
-          console.log(test.data);
+        
+          // Step 3: Store geolocation data to database
+          const visitor = await axios.post('https://arnab-ac-in-backend.onrender.com/visitors',geoData);
+          console.log(visitor.data);
+          
       } catch (error) {
           console.error('Error fetching IP or geolocation:', error);
       }
