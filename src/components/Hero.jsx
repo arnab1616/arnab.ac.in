@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Outlet } from 'react-router-dom'
+import axios from 'axios'
 
 export default function Hero() {
+  useEffect(()=>{
+    async function fetchIPGeolocation() {
+      try {
+          // Step 1: Fetch the public IP address
+          const ipResponse = await axios.get('https://api.ipify.org?format=json');
+          const ip = ipResponse.data.ip;
+
+          console.log(`Your IP address is: ${ip}`);
+
+          // Step 2: Fetch geolocation data using the IP
+          const geoResponse = await axios.get(`https://ipapi.co/${ip}/json/`);
+          const geoData = geoResponse.data;
+
+          console.log('Geolocation Data:', geoData);
+      } catch (error) {
+          console.error('Error fetching IP or geolocation:', error);
+      }
+    }
+    fetchIPGeolocation();
+  },[])
 
   return (
   <>
