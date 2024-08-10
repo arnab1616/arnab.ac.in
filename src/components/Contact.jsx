@@ -8,7 +8,7 @@ export default function Contact() {
   const sendMassage = async (e) =>{
     e.preventDefault();
     try{
-      const messageData = await axios.post('http://localhost:3000/message',input);
+      const messageData = await axios.post('https://arnab-ac-in-backend.onrender.com/message',input);
       console.log(messageData.data);
       setClose(true);
       setInput({});
